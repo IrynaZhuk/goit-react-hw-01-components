@@ -7,7 +7,7 @@ margin-left: auto;
 margin-right: auto;
 margin-top: 20px;
 border-radius: 8px;
-border: 2px black solid;
+border: 2px grey solid;
 `;
 
 export const Title = styled.h2`

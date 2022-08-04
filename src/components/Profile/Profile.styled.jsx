@@ -7,7 +7,7 @@ margin-left: auto;
 margin-right: auto;
 border-radius: 8px;
 overflow: hidden;
-border: 2px #70757a solid;`;
+border: 2px grey solid;`;
 
 export const Description = styled.div`
 display: flex;
@@ -28,12 +28,12 @@ margin-bottom: 0;
 export const Tag = styled.p`
 margin-top: 16px;
 margin-bottom: 0;
-  color: #70757a;`;
+  color: grey;`;
 
   export const Location = styled.p`
   margin-top: 16px;
   margin-bottom: 0;
-color: #70757a;`;
+color: grey;`;
 
 export const Stats = styled.ul`
 display: flex;
@@ -50,15 +50,15 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 align-items: center;
-border-left: 1px #70757a solid;
-border-right: 1px #70757a solid;
-border-top: 2px #70757a solid;
+border-left: 1px grey solid;
+border-right: 1px grey solid;
+border-top: 2px grey solid;
 background-color: #d5d9dd;
 `;
 
 export const Label = styled.span`
 display: block;
-color: #70757a;
+color: grey;
 `;
 
 export const Quantity = styled.span`
