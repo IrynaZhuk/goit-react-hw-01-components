@@ -1,15 +1,15 @@
 import { Profile } from "./Profile/Profile";
-import userData from '../user.json'
+import user from '../user.json'
 
 export const App = () => {
   return (
     <div>
     <Profile
-        username={userData.username}
-        tag={userData.tag}
-        location={userData.location}
-        avatar={userData.avatar}
-        stats={userData.stats}
+        username={user.username}
+        tag={user.tag}
+        location={user.location}
+        avatar={user.avatar}
+        stats={user.stats}
       />
     </div>
   );

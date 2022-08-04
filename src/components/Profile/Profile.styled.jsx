@@ -22,14 +22,17 @@ width: 100px;
 `;
 
 export const Name = styled.p`
-margin-top: 30px;
+margin-top: 20px;
+margin-bottom: 0;
 `
 export const Tag = styled.p`
 margin-top: 16px;
+margin-bottom: 0;
   color: #70757a;`;
 
   export const Location = styled.p`
   margin-top: 16px;
+  margin-bottom: 0;
 color: #70757a;`;
 
 export const Stats = styled.ul`
