@@ -1,7 +1,7 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Friend = styled.li`
-display: flex;
+  display: flex;
   align-items: center;
   padding: 8px 16px;
   border-radius: 8px;
@@ -9,20 +9,23 @@ display: flex;
   border: 2px grey solid;
   :not(:last-child) {
     margin-bottom: 8px;
-  }`;
+  }
+`;
 
 export const Status = styled.span`
-display: block;
-width: 24px;
-height: 24px;
-border-radius: 50%;
-background-color: ${props => (props.status ? 'green' : 'red')};`;
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: ${props => (props.status ? 'green' : 'red')};
+`;
 
 export const Avatar = styled.img`
-margin-left: 16px;
-  width: 60px;`;
+  margin-left: 16px;
+  width: 60px;
+`;
 
 export const Name = styled.p`
-margin-left: 16px;
-  font-size: 20px;`;
-
+  margin-left: 16px;
+  font-size: 20px;
+`;
